@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
 
 
 :root {
@@ -25,6 +26,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -34,9 +36,10 @@ body {
 
 }
 
+
 .form-card { 
         background: var(--color-darkblue-alpha);
-        padding: 2.5rem 0.625rem;
+        padding: 50px 100px;
         border-radius: 0.25rem;
         width: 720px;
 }
@@ -49,4 +52,38 @@ body {
 .checkbox-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+button {
+    width: 100%;
+    background-color: var(--color-green);
+    border: 1px solid var(--color-green);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system,     BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    margin-top: 8px;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
 }
